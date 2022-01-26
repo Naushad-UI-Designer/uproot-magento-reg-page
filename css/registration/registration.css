@@ -1,0 +1,264 @@
+.ks-top-header {
+    background-color: #eae9ff;
+}
+.ks-top-div1, .ks-top-div2 {
+    display: flex;
+    align-items: center;
+}
+.ks-top-div1 p {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    color: #232323;
+    font-weight: 400;
+    text-align: right;
+}
+body {
+    font-family: "Signika Negative";  
+}
+img {
+    vertical-align: middle;
+    outline: none;
+}
+.ks-fev-counter {
+    margin-left: 5px;
+    margin-right: 20px;
+    font-size: 11px;
+    letter-spacing: 3px;
+    line-height: 7px;
+    vertical-align: middle;
+}
+.ks-navbar-parent {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.ks-navbar-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+.ks-uproot-default-btn {
+    border-radius: 0px 10px 10px 10px;
+    cursor: pointer; 
+    border: none;
+    font-size: 18px;
+    color: #232323;
+    font-weight: 400;
+}
+.ks-uproot-white-btn {
+    padding: 13px 50px;
+    background-color: #fff;
+}
+.ks-uproot-color-btn {
+    background-color: #d1e517;
+    padding: 15px 30px;
+}
+.ks-nav-link.ks-nav-btn {
+    background-color: #d1e517;
+    border-radius: 0px 10px 10px 10px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.ks-nav-link {
+    background-color: transparent;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #232323;
+    font-weight: 400;
+}
+.ks-nav-link span {
+    cursor: pointer;
+}
+.ks-banner-img {
+    content: "";
+    background-image: url(../../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 540px;
+}
+.ks-bg-white {
+    background-color: #fff !important;
+}
+.ks-banner-content {
+    padding: 35px 40px;
+}
+.ks-banner-content h2 {
+    font-size: 43px;
+    letter-spacing: 1px;
+    line-height: 35px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Signika Negative";
+}
+.ks-banner-content p {
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Signika Negative";
+}
+.ks-info-form {
+    padding-top: 70px;
+}
+.ks-form-fieldset {
+    border: none;
+}
+.ks-marketplace-field {
+    display: grid;
+    margin-bottom: 20px;
+    flex-basis: 42%;
+    margin-left: 75px;
+}
+.ks-marketplace-field label {
+    margin-bottom: 5px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: #808080;
+    font-weight: 400;
+}
+.ks-marketplace-field input, .ks-marketplace-field input, .ks-marketplace-field select {
+    min-height: 36px;
+    background-color: #e1e1e1;
+    border: none;
+    border-radius: 0px 8px 8px;
+    outline: none;
+}
+.ks-business-icon {
+    flex-basis: calc(100% / 7);
+    text-align: center;
+}
+.ks-business-icon div {
+    margin-top: 10px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #808080;
+    font-weight: 400;
+    text-align: center;
+}
+.footer-section {
+    background-color: #c0b1ec;
+}
+.footer-inner-div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.ks-footer-partner-section {
+    background-color: #fff;
+    border-radius: 0px 10px 10px 10px;
+    padding: 30px 30px 20px;
+    color: #2f1e60;
+    flex-basis: 40%;
+}
+.bottom-footer-info {
+    padding: 20px 0px
+}
+.ks-top-header-social-icon {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #aca5a5;
+    padding: 1px;
+    border-radius: 100%;
+    margin-left: 7px;
+}
+.ks-required-star::after, .ks-form-icon-label.ks-required-star::before {
+    content: '*';
+    color: #cb0808;
+    font-size: 1rem;
+    margin: 0px 0px 0 3px;
+    vertical-align: middle;
+    font-weight: 500;
+}
+.ks-form-icon-label.ks-required-star::before {
+    margin: 0px 3px 0 0spx;
+}
+.ks-form-icon-label.ks-required-star::after {
+    display: none;
+}
+.ks-form-icon-section {
+    margin-left: 60px;
+    margin-right: 25px;
+}
+.ks-form-icon-section .ks-marketplace-field {
+    margin-left: 0px;
+}
+.ks-form-icon-label p {
+    display: inline-block;
+}
+.ks-submit-btn-div {
+    margin-left: auto;
+    width: fit-content;
+    display: block;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    padding: 15px 50px;
+    font-size: 26px;
+}
+.ks-bottom-footer-info span {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 14px;
+    color: #340138;
+    margin-right: 10px;
+}
+.footer-links-1 p {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 37px;
+    color: #010001;
+    font-weight: 400;
+    margin: 0px;
+}
+.footer-links .footer-head {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 11px;
+    color: #050505;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.footer-links p {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 14px;
+    color: #000000;
+}
+.ks-footer-partner-section h3 {
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 29px;
+    color: #340138;
+    font-weight: 400;
+}
+.ks-footer-partner-section p {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: #340138;
+    font-weight: 400;
+}
+.ks-footer-partner-section button {
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #340138;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+}
+.ks-bottom-footer-info {
+    border-top: 1px solid #b1aeae;
+    padding: 30px 0px;
+}
+.footer-links-1, .footer-links {
+    flex-basis: 20%;
+    padding-top: 40px;
+}
